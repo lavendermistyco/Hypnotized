@@ -12,6 +12,7 @@ noStroke();
 rectMode(CENTER);
 ellipseMode(CENTER);
 minim = new Minim(this);
+//this is where you put the file for the song you would like to play:
 flex = minim.loadFile("0Feeling Happy ' Deep House Summer Mix 2015 -.mp3");
 flex.loop();
 }
